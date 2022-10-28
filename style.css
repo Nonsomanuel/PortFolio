@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: lightgrey;
+    /*display: flex; */
+    place-items: center;
+    min-height: 100vh;
+    color: white;
+  
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "a b c d e"
+    "a b c d e" 
+    ;
+    gap: 4px;
+    width: 50%;
+    margin: auto;
+    padding: 10%;
+    justify-content: center;
+    text-align: center;
+}
+.grid-container div{
+    padding: 2em;
+    border-radius: 10px;
+    /*align-items: center;*/
+   
+}
+.box-1{
+    background-color:  hsl(31, 77%, 52%);
+    grid-area: a;
+}
+.box-2{
+    background-color: hsl(184, 100%, 22%);
+    grid-area: b;
+}
+.box-3{
+    background-color: hsl(179, 100%, 13%);
+    grid-area: c;
+}
+.box-4{
+    background-color: hsl(241, 70%, 25%);
+    grid-area: d;
+}
+.box-5{
+    background-color: hsl(135, 96%, 39%);
+    grid-area: e;
+}
+.aboutme{
+    text-align: center;
+    padding: 10%;
+    color: black;
+    font-size: large;
+}
+.contacts{
+    text-align: center;
+    padding: 10%;
+    color: black;
+    font-size: large;
+}
+footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
